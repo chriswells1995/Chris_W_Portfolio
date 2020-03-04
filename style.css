@@ -1,24 +1,8 @@
-.pos {
-    /* position: absolute; */
-float:right;
-}
-
-/* why doesn't this move like I'd expect? */
-
-.pos-1 {
-    left: 50%; 
-
-
-}
-
+/* This creates some padding for the images so they aren't touching eachother */
 .pad {
 
     padding: 5%;
 }
 
-.text-1 {
-text-align: right;
-
-}
 
 

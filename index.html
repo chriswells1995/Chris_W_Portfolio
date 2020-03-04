@@ -1,21 +1,24 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Chris Wells</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+  <title>Chris Wells</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- This links to my custom CSS page -->
+  <link rel="stylesheet" href="style.css">
+  <!-- This links to the Bootstrap CSS Library, which is responsible for the responsiveness -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
 
 
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-<body> 
-
-<!-- Begining of comment -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- This navbar code was coppied from bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <a class="navbar-brand" href="index.html" id="logo">Chris Wells</a>
@@ -32,6 +35,7 @@
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
+          <!-- The active class indicates that this is the current page, and makes the text more defined -->
           <li class="nav-item active">
             <a class="nav-link" href="index.html">About</a>
           </li>
@@ -45,78 +49,92 @@
   <!-- End of Bootstrap's nav -->
 
 
-<!-- END OF COMMENT -->
+  <!-- END OF COMMENT -->
 
-<br>
-
+  <!-- spacing between the navbar and the rest of the content -->
+  <br>
+  <!-- creating a container to put the content in -->
   <div class="container">
+    <!-- creating the main row -->
+    <div class="row">
+      <!-- creating the first column in this row, which takes up 8/12 of the row -->
+      <div class="col-md-8">
+        <!-- creating a sub row in this section -->
         <div class="row">
-             <div class="col-md-8">
-                 <div class="row">
-                    <h1>About Me</h1>
-                 </div>
-                 <div class="row">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quaerat laborum minima, 
-                         soluta provident quibusdam eum tenetur doloremque ipsa incidunt nostrum et magni recusandae, 
-                         perspiciatis necessitatibus. Tenetur provident id minima.
-                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatibus eum sed 
-                         praesentium deserunt illo amet sapiente mollitia soluta eligendi laudantium eius labore ea 
-                         tenetur facilis accusantium rem, vero explicabo!
-                         soluta provident quibusdam eum tenetur doloremque ipsa incidunt nostrum et magni recusandae, 
-                         perspiciatis necessitatibus. Tenetur provident id minima.
-                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatibus eum sed 
-                         praesentium deserunt illo amet sapiente mollitia soluta eligendi laudantium eius labore ea 
-                         tenetur facilis accusantium rem, vero explicabo!
-                         soluta provident quibusdam eum tenetur doloremque ipsa incidunt nostrum et magni recusandae, 
-                         perspiciatis necessitatibus. Tenetur provident id minima.
-                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatibus eum sed 
-                         praesentium deserunt illo amet sapiente mollitia soluta eligendi laudantium eius labore ea 
-                         tenetur facilis accusantium rem, vero explicabo!
+          <!-- The header -->
+          <h1>About Me</h1>
+        </div>
+        <!-- Creating another sub row in the same section -->
+        <div class="row">
+          <!-- Lorem Ipsum to fill the void as temporary text -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quaerat laborum minima,
+            soluta provident quibusdam eum tenetur doloremque ipsa incidunt nostrum et magni recusandae,
+            perspiciatis necessitatibus. Tenetur provident id minima.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatibus eum sed
+            praesentium deserunt illo amet sapiente mollitia soluta eligendi laudantium eius labore ea
+            tenetur facilis accusantium rem, vero explicabo!
+            soluta provident quibusdam eum tenetur doloremque ipsa incidunt nostrum et magni recusandae,
+            perspiciatis necessitatibus. Tenetur provident id minima.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatibus eum sed
+            praesentium deserunt illo amet sapiente mollitia soluta eligendi laudantium eius labore ea
+            tenetur facilis accusantium rem, vero explicabo!
+            soluta provident quibusdam eum tenetur doloremque ipsa incidunt nostrum et magni recusandae,
+            perspiciatis necessitatibus. Tenetur provident id minima.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatibus eum sed
+            praesentium deserunt illo amet sapiente mollitia soluta eligendi laudantium eius labore ea
+            tenetur facilis accusantium rem, vero explicabo!
 
-                        </p>
-                 </div>
+          </p>
+        </div>
 
-                 </div>
-                 <div class="col-md-4">
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="./pics/profile picture.jpg" class="card-img-top" alt="Me">
-                    <div class="card-body">
-                      <p class="card-text">This is just a caption to describe the above picture of me. It's me.</p>
-                    </div>
-                  </div>
-
-
-
-
-                     
-
-
-                     
-                 </div>
-                 
-
-
-
-
-
-            
+      </div>
+      <!-- creating a column to fill the other 4/12 of the row -->
+      <div class="col-md-4">
+        <!-- creating a card with an image and a caption -->
+        <div class="card" style="width: 18rem;">
+          <img src="./pics/profile picture.jpg" class="card-img-top" alt="Me">
+          <div class="card-body">
+            <p class="card-text">This is just a caption to describe the above picture of me. It's me.</p>
+          </div>
+        </div>
 
 
 
 
 
 
-         </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
-  
-  
-  
+  </div>
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>      
+
+
+  <!-- This allows the hamburger menu to drop down -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
 
