@@ -12,7 +12,7 @@
   <!-- This links to the Bootstrap CSS Library, which is responsible for the responsiveness -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-<body> 
+<body class="blueGray"> 
     <!-- This navbar code was coppied from bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -56,6 +56,10 @@
                     <!-- A Description of the page -->
                      <p>These are images that link to things I have worked on. As I work on more they will fill the whole page, 
                        eventually replacign the pictures of me. Until then, there are also a series of pictures of me. Click on any image to get a link to a previous assignment.
+                       
+                       These first two images link to projects I helped create. whatsOn and BrewBuzz are websites based mainly on my ideas. WhatsOn allows a user 
+                       to search a movie title, and the streaming services the title is on are returned to the user. BrewBuzz allows users to make and read comments on 
+                       their favorite breweries. Links to their GitHub pages can be seen in the captions. 
                        </p>
                 </div>
                 <!-- The remaining rows contain three columns each, with one image per column. 
@@ -64,47 +68,112 @@
 
                 <!-- The third row -->  
                      <div class="row">
-                       
-                      <div class="col-md-4">
-                        <a href="https://lhirsch1.github.io/whatsOn/"><img class = "pad" src="./more/whatson.JPG" alt="Project 1"></a>
+                       <!-- whatsOn -->
+                       <div class="col-md-6">
+                      <div class="card" style="width: 18rem;">
+                        <a href="https://lhirsch1.github.io/whatsOn/"><img src="./more/whatson.JPG" class="card-img-top" alt="whatsOn logo"></a>
+                        
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="https://lhirsch1.github.io/whatsOn/">whatsOn.com</a></h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <a href="https://github.com/lhirsch1/whatsOn"><li class="list-group-item">GitHub Repo</li></a>
+                        </ul>
                       </div>
-                      <div class="col-md-4">
-                        <a href="https://chriswells1995.github.io/code-refactor/"><img class = "pad" src="./more/hw1.jpg" width = "300px" alt="HW 1"></a>
+                       </div>
+                       <!-- BrewBuzz -->
+                       <div class="col-md-6">
+                      <div class="card" style="width: 18rem;">
+                        <a href="https://brewbuzz.herokuapp.com/"><img src="./new_pics/brewbuzz.JPG" class="card-img-top" alt="Brew Buzz logo"></a>
+                        
+                        <div class="card-body">
+                          <h5 class="card-title"><a href="https://brewbuzz.herokuapp.com/">BrewBuzz.com</a></h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <a href="https://github.com/chriswells1995/BrewBuzz"><li class="list-group-item">BrewBuzz Repo</li></a>
+                        </ul>
                       </div>
-                      <div class="col-md-4">
-                        <a href="index.html"><img class = "pad" src="./pics/profile picture.jpg" width = "300px" alt="HW 2"></a>
                       </div>
+
+
+
+
+                      
+
+
 
                      </div>
 
                      <!-- the fourth row -->
                      <div class="row">
+                       <br>
+                       <p>These next three images are also links to deployed websites. They were tasks assigned to me that I completed. 
+                         The first is a Password Generator, that randomly creates a password depending on the criteria of the user, the second is 
+                         a code quiz. A Quiz that asks the user coding questions, keeps track of their score, and penalizes their time for every incorrect answer.
+                         The third is a note taker, which allows a user to write and save notes. The fourth image is for an Employee Management Program that is used 
+                         completely on the backend, so there is no deployed website, just a repo.
+                       </p>
+                       <!-- Password Generator -->
+                       <div class="col-md-6">
+                        <div class="card" style="width: 18rem;">
+                          <a href="https://chriswells1995.github.io/Password_Generator/"><img  class="card-img-top" src="./more/hw3.jpg" width = "300px" alt="Password Generator"></a>
+                          
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://chriswells1995.github.io/Password_Generator/">Password Generator</a></h5>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <a href="https://chriswells1995.github.io/Quiz/"><li class="list-group-item">GitHub Repo</li></a>
+                          </ul>
+                        </div>
+                         </div>
+                         <!-- Code Quiz -->
+                         <div class="col-md-6">
+                        <div class="card" style="width: 18rem;">
+                          <a href="https://chriswells1995.github.io/Quiz/"><img src="./more/hw4.JPG" width = "300px" class="card-img-top" alt="Quiz"></a>
+                          
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://chriswells1995.github.io/Quiz/">Code Quiz</a></h5>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <a href="https://github.com/chriswells1995/BrewBuzz"><li class="list-group-item">GitHub Repo</li></a>
+                          </ul>
+                        </div>
+                        </div>
                        
-                      <div class="col-md-4">
-                        <a href="https://chriswells1995.github.io/Password_Generator/"><img class = "pad" src="./more/hw3.jpg" width = "300px" alt="HW 3"></a>
-                      </div>
-                      <div class="col-md-4">
-                        <a href="https://chriswells1995.github.io/Quiz/"><img class = "pad" src="./more/hw4.jpg" width = "300px" alt="HW 4"></a>
-                      </div>
-                      <div class="col-md-4">
-                        <a href="https://chriswells1995.github.io/Scheduler/"><img class = "pad" src="./more/hw5.jpg" width = "300px" alt="HW 5"></a>
-                      </div>
+
 
                      </div>
+                       <br>
 
                      <!-- the fifth row -->
                      <div class="row">
-                       
-                      <div class="col-md-4">
-                        <a href="https://chriswells1995.github.io/weather/"><img class = "pad" src="./more/hw6.jpg" width="300px" alt="HW 6"></a>
-                      </div>
-                      <div class="col-md-4">
-                        <a href="#"><img class = "pad" src="./pics/profile picture.jpg" alt="Me"></a>
-                      </div>
-                      <div class="col-md-4">
-                        <a href="#"><img class = "pad" src="./pics/profile picture.jpg" alt="Me"></a>
-                      </div>
+                      <!-- Note Taker -->
+                      <div class="col-md-6">
+                        <div class="card" style="width: 18rem;">
+                          <a href="https://murmuring-headland-30165.herokuapp.com/"><img  class="card-img-top" src="./new_pics/note_taker.JPG" width = "300px" alt="Note Taker"></a>
+                          
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://murmuring-headland-30165.herokuapp.com/">Password Generator</a></h5>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <a href="https://github.com/chriswells1995/noteTaker"><li class="list-group-item">GitHub Repo</li></a>
+                          </ul>
+                        </div>
+                         </div>
 
+                         <!-- employee -->
+                         <div class="col-md-6">
+                          <div class="card" style="width: 18rem;">
+                            <img  class="card-img-top" src="./new_pics/employee.JPG" width = "300px" alt="Employee Tracker">
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Employee Tracker</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <a href="https://github.com/chriswells1995/employeeTracker"><li class="list-group-item">GitHub Repo</li></a>
+                            </ul>
+                          </div>
+                           </div>
                      </div>
 
 
