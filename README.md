@@ -1,6 +1,7 @@
 # Chris_W_Portfolio
 
-This is my Portfolio Website. The main focus was using Bootstrap to create a responsive website that adjusts its layout depending on weather the page is viewed with a laptop, phone, or tablet.
-The layout is very simplistic, as designing was not the current main focus. Lorem Ipsum is used, as well as one placeholder image. However, the website is responsive. Paragraphs and images adjust according to the screen size. 
+https://chriswells1995.github.io/Chris_W_Portfolio/
 
-Links to previous assignments added 3/25/2020
+## This is my Portfolio Website. In it you'll see descriptions and links for my various projects, my contact information, and a summary of my skills and background.
+
+![Profile Pic](./pics/profile_picture.jpg)
