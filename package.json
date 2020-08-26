@@ -1,0 +1,23 @@
+{
+  "name": "chris_w_portfolio",
+  "version": "1.0.0",
+  "description": "https://chriswells1995.github.io/Chris_W_Portfolio/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriswells1995/Chris_W_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriswells1995/Chris_W_Portfolio/issues"
+  },
+  "homepage": "https://github.com/chriswells1995/Chris_W_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
